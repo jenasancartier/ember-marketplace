@@ -7,4 +7,5 @@ export default DS.Model.extend({
   description: DS.attr(),
   image: DS.attr(),
   feedbacks: DS.hasMany('feedback', { async: true }),
+  category: DS.attr()
 });

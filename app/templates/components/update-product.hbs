@@ -28,6 +28,11 @@
           {{input value=image id="image" placeholder=product.image}}
         </div>
 
+        <div class="form-group">
+          <label for="category">Category</label>
+          {{input value=category id="category" placeholder=product.category}}
+        </div>
+
         <button {{action 'update' product}}>Save</button>
         <button {{action 'cancelUpdate'}}>Cancel</button>
       </form>

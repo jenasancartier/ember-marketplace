@@ -14,6 +14,7 @@ export default Ember.Component.extend({
         price: this.get('price'),
         description: this.get('description'),
         image: this.get('image'),
+        category: this.get('category'),
       };
       this.set('addNewProduct', false);
       this.sendAction('saveProduct2', params);
