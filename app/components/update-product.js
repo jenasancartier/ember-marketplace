@@ -6,7 +6,11 @@ export default Ember.Component.extend({
     updateProductForm() {
       this.set('updateProductForm', true);
     },
-    
+
+    cancelUpdate() {
+      this.set('updateProductForm', false);
+    },
+
     update(product) {
       var params = {
         title: this.get('title'),

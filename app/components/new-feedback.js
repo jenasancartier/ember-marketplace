@@ -17,7 +17,6 @@ export default Ember.Component.extend({
       this.set('addNewFeedback', false);
       this.sendAction('saveFeedback', params);
     },
-
     cancelFeedback() {
       this.set('addNewFeedback', false);
     }

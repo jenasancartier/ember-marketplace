@@ -1,34 +1,37 @@
 {{#if updateProductForm}}
-  <h4>Update {{product.title}}</h4>
-  <div>
-    <form>
-      <div class="form-group">
-        <label for="title">Title</label>
-        {{input value=title id="title" placeholder=product.title}}
-      </div>
+  <div class="update-form">
+      <h4>Update {{product.title}}</h4>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="title">Title</label>
+          {{input value=title id="title" placeholder=product.title}}
+        </div>
 
-      <div class="form-group">
-        <label for="brand">Brand</label>
-        {{input value=brand id="brand" placeholder=product.brand}}
-      </div>
+        <div class="form-group">
+          <label for="brand">Brand</label>
+          {{input value=brand id="brand" placeholder=product.brand}}
+        </div>
 
-      <div class="form-group">
-        <label for="price">Price</label>
-        {{input value=price id="price" placeholder=product.price}}
-      </div>
+        <div class="form-group">
+          <label for="price">Price</label>
+          {{input value=price id="price" placeholder=product.price}}
+        </div>
 
-      <div class="form-group">
-        <label for="description">Description</label>
-        {{input value=description id="description" placeholder=product.description}}
-      </div>
+        <div class="form-group">
+          <label for="description">Description</label>
+          {{input value=description id="description" placeholder=product.description}}
+        </div>
 
-      <div class="form-group">
-        <label for="image">Image</label>
-        {{input value=image id="image" placeholder=product.image}}
-      </div>
+        <div class="form-group">
+          <label for="image">Image</label>
+          {{input value=image id="image" placeholder=product.image}}
+        </div>
 
-      <button {{action 'update' product}}>Save</button>
-    </form>
+        <button {{action 'update' product}}>Save</button>
+        <button {{action 'cancelUpdate'}}>Cancel</button>
+      </form>
+    </div>
   </div>
 {{else}}
   <button {{action 'updateProductForm'}}>Update</button>

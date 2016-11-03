@@ -13,14 +13,16 @@ export default Ember.Route.extend({
     addToCart(item) {
       this.get('shoppingCart').add(item);
     },
+
     saveFeedback(params) {
+      console.log(params);
       var newFeedback = this.store.createRecord('feedback', params);
-      var product = params.product;
+      var product = params;
       product.get('feedbacks').addObject(newFeedback);
-      newFeedback.save().then(function(){
+      newFeedback.save().then(function() {
         return product.save();
       });
-      this.transitionTo('product');
+      this.transitionTo('product', product);
     }
   }
 });

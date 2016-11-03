@@ -1,3 +1,9 @@
+button {
+  margin-top: 6px;
+  margin-bottom: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
 h1 {
   text-align: center;
   font-family: 'Lato', sans-serif;
@@ -31,22 +37,45 @@ a:hover {
   color:yellow;
 }
 
+.nav {
+  font-size: 2em;
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Raleway', sans-serif;
+
+}
+
 .jumbotron {
   background-color: black;
   color: white;
 }
 
-.nav-link {
-  margin-left: 40px;
-  margin-top: 10px;
-  margin-right: 20px;
-  font-size: 1.8rem;
-  float: right;
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(#7EE8D4,#82BDFC,#82BDFC);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    color: white;
 }
 
 .well  {
   max-height: 375px;
   background-color: #3d3d3d;
+  padding-bottom: 20px;
 }
 
 .addProduct {
@@ -55,7 +84,19 @@ a:hover {
   margin-top: 30px;
 }
 
-button {
-  margin-top: 6px;
-  font-family: 'Lato', sans-serif;
+.update-form {
+  margin-top: 50px;
+  background-color: #d4ff7f;
+  padding: 20px;
+  border-radius: 2px;
+  margin-bottom: 35px;
+}
+
+.feedback-form {
+  margin-top: 50px;
+  background-color: #d4ff7f;
+  padding: 20px;
+  border-radius: 2px;
+  margin-bottom: 35px;
+  text-align: center;
 }
