@@ -1,3 +1,8 @@
+li {
+  list-style: none;
+  padding: 0;
+}
+
 button {
   margin-top: 6px;
   margin-bottom: 10px;
@@ -29,33 +34,41 @@ img {
 }
 
 a {
-  color: #d4ff7f;
+  color: #3d3d3d;
   font-family: 'Lato', sans-serif;
 }
 
-a:hover {
-  color:yellow;
+.sidenav a:hover {
+  text-decoration: underline;
 }
 
 .nav {
   font-size: 2em;
+}
 
+.nav-cart {
+  float: right;
 }
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 15px;
-    color: white;
+    font-size: 17px;
+    color: black;
     display: block;
     transition: 0.3s;
     font-family: 'Raleway', sans-serif;
+}
 
+.sidenav a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .jumbotron {
-  background-color: black;
-  color: white;
+  background-color: rgba(61, 61, 61, 0.0);
+  color: black;
+  margin-top: 40px;
 }
 
 .sidenav {
@@ -65,16 +78,19 @@ a:hover {
     z-index: 1;
     top: 0;
     left: 0;
-    background: linear-gradient(#7EE8D4,#82BDFC,#82BDFC);
+    /*background: linear-gradient(#B6FE26,#D4FF7F,#E5FFB1,#FDFFF9);*/
+    background: linear-gradient(#D4FF7F,#85BAFF);
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
-    color: white;
+    color: yellow;
 }
 
 .well  {
   max-height: 375px;
-  background-color: #3d3d3d;
+  /*background-color: #3d3d3d;*/
+  background-color: white;
+  border-color: #D4FF7F;
   padding-bottom: 20px;
 }
 
@@ -85,7 +101,7 @@ a:hover {
 }
 
 .update-form {
-  margin-top: 50px;
+  margin-top: 60px;
   background-color: #d4ff7f;
   padding: 20px;
   border-radius: 2px;
@@ -93,7 +109,7 @@ a:hover {
 }
 
 .feedback-form {
-  margin-top: 50px;
+  margin-top: 60px;
   background-color: #d4ff7f;
   padding: 20px;
   border-radius: 2px;
