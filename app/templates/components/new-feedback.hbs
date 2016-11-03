@@ -1,0 +1,23 @@
+{{#if addNewFeedback}}
+<h3>Leave Feedback</h3>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="buyer">Name</label><br>
+      {{input value=buyer id="buyer"}}
+    </div>
+    <div class="form-group">
+      <label for="rating">Rating</label><br>
+      {{input value=rating id="rating"}}
+    </div>
+    <div class="form-group">
+      <label for="review">What did you think?</label><br>
+      {{input value=review id="review"}}
+    </div>
+    <button {{action 'saveFeedback'}}>Save</button>
+    <button {{action 'cancelFeedback'}}>Cancel</button>
+  </form>
+</div>
+{{else}}
+  <button {{action 'feedbackFormShow'}}>Add Feedback</button>
+{{/if}}

@@ -1,0 +1,15 @@
+<h2>{{model.products.brand}} {{model.products.title}}</h2>
+<img src={{model.products.image}}>
+<h3>$ {{model.products.price}}</h3>
+<h4>{{model.products.description}}</h4>
+<button {{action 'addToCart' model.products}}>Add To Cart</button>
+
+
+<ul>
+  {{#each model.feedbacks as |feedback|}}
+    <li>{{feedback.buyer}} - {{feedback.rating}} - {{feedback.review}}</li>
+  {{/each}}
+</ul>
+
+
+{{new-feedback saveFeedback="saveFeedback"}}

@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+a {
+  color: #d4ff7f;
+}
+
+a:hover {
+  color:yellow;
+}
+
+.jumbotron {
+  background-color: black;
+  color: white;
+}
+
+.nav-link {
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 1.8rem;
+  float: right;
+}
+
+.well  {
+  max-height: 375px;
+  background-color: #3d3d3d;
+}
+
+button {
+  margin-top: 6px;
+}

@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="jumbotron">
+    <h1 id="title">gizmo</h1>
+  </div>
+  <nav class="navbar navbar-inverse">
+    <div class="nav-link">
+      {{#link-to 'my-cart'}}Shopping Cart{{/link-to}}
+    </div>
+    <div class="nav-link">
+      {{#link-to 'admin'}}Admin Portal{{/link-to}}
+    </div>
+    <div class="nav-link">
+      {{#link-to 'about'}}About{{/link-to}}
+    </div>
+    <div class="nav-link">
+      {{#link-to 'contact'}}Contact{{/link-to}}
+    </div>
+    <div class="nav-link">
+      {{#link-to 'index'}}Home{{/link-to}}
+    </div>
+  </nav>
+
+  {{outlet}}
+</div>

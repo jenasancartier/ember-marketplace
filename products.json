@@ -1,0 +1,34 @@
+{ "products": [{
+    "title": "DSC-H300 Digital Compact Camera",
+    "brand": "Sony",
+    "price": 200,
+    "description": "The Sony DSC-H300 Digital compact camera is easy to use, with powerful zoom with true image detail. Striking images made simple with a 35x optical zoom, 20MP sensor, HD video, and creative effects. Get closer with the powerful 35x optical zoom, and detail with a 20.1 MP sensor and HD video. It’s easy to use, with a solid and comfy DSLR body.",
+    "image": "http://target.scene7.com/is/image/Target/15179760?wid=3000&hei=3000&qlt=70&fmt=pjpeg"
+  },{
+    "title": "Diamond tears Edge On-Ear Headphones",
+    "brand": "Monster",
+    "price": 250,
+    "description": "The thrill of diamonds. The emotion of your music. Nothing is more desired than diamonds: the clarity, the perfection. And no headphone in the world marries haute couture and audio performance like Diamond Tears by Monster. They are the high-definition on-ear headphones that let you hear your favorite songs just as the artist created them in the studio. Clear. Involving. Impactful. Edgy.",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61%2B3FE9qZEL._SL1000_.jpg"
+  }, {
+    "title": "Pulse Outdoor Bluetooth Speaker",
+    "brand": "JBL",
+    "price": 170,
+    "description": "The sound of the JBL Pulse is excellent and mind-blowing. It produces clear loud sound at no distortion at high volumes and packs a decent amount of bass into the beats. The dual speaker system in the JBL Pulse delivers full-range sound – the highs and mids are crisp and have lots of clarity to them, which is rare for a speaker of this size. The music can be combined with a programmable LED light show via an easy to use app. We really liked the LED Pulse rhythms which was such a joy to look at. Streaming music wirelessly through a smart phone or bluetooth enabled device was easy. It also comes with an auxiliary port which allows you to hook up other devices.",
+    "image": "http://www.bassheadspeakers.com/wp-content/uploads/2015/07/JBL-Pulse-Wireless-Bluetooth-Speaker.jpg"
+  }],
+  
+  "feedbacks": [{
+    "buyer": "Mike",
+    "review": "There was a crack on the screen.",
+    "rating": 2
+  }, {
+    "buyer": "Mike Two",
+    "review": "These headphones are great. I wish they had a case though.",
+    "rating": 8
+  }, {
+    "buyer": "Michelle",
+    "review": "The speaker is okay.",
+    "rating": 5.5
+  }]
+}
