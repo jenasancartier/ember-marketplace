@@ -11,7 +11,8 @@ export default Ember.Component.extend({
       var params = {
         buyer: this.get('buyer'),
         rating: this.get('rating'),
-        review: this.get('review')
+        review: this.get('review'),
+        product: this.get('product')
       };
       this.set('addNewFeedback', false);
       this.sendAction('saveFeedback', params);

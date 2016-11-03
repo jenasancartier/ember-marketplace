@@ -1,1 +1,10 @@
-{{outlet}}
+<h3>Welcome, Admin.</h3>
+
+{{new-product saveProduct2="saveProduct3"}}
+
+<br><br>
+<ul>
+  {{#each model as |product|}}
+    {{admin-tile product=product}}
+  {{/each}}
+</ul>

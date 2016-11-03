@@ -6,10 +6,10 @@
 
 
 <ul>
-  {{#each model.feedbacks as |feedback|}}
+  {{#each product.feedbacks as |feedback|}}
     <li>{{feedback.buyer}} - {{feedback.rating}} - {{feedback.review}}</li>
   {{/each}}
 </ul>
 
 
-{{new-feedback saveFeedback="saveFeedback"}}
+{{new-feedback saveFeedback="saveFeedback" product=model}}

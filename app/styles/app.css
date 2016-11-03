@@ -1,9 +1,20 @@
 h1 {
   text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
 }
 
 h3 {
   text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;
 }
 
 img {
@@ -13,6 +24,7 @@ img {
 
 a {
   color: #d4ff7f;
+  font-family: 'Lato', sans-serif;
 }
 
 a:hover {
@@ -37,6 +49,13 @@ a:hover {
   background-color: #3d3d3d;
 }
 
+.addProduct {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+
 button {
   margin-top: 6px;
+  font-family: 'Lato', sans-serif;
 }
