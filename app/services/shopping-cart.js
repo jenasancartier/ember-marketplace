@@ -6,7 +6,7 @@ export default Ember.Service.extend({
 
   add(item) {
     this.get('items').pushObject(item);
-    var newTotal = this.get('total') + parseInt(item.get('price'));
+    var newTotal = this.get('total') + parseFloat(item.get('price'));
     this.set("total", newTotal);
   },
 });

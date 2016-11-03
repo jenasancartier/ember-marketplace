@@ -1,5 +1,36 @@
 {{#if addNewProduct}}
-  <p>future product form</p>
+<h5>Add Product</h5>
+ <div>
+   <form>
+     <div class="form-group">
+       <label for="title">Title</label>
+       {{input value=title id="title"}}
+     </div>
+
+     <div class="form-group">
+       <label for="brand">Brand</label>
+       {{input value=brand id="brand"}}
+     </div>
+
+     <div class="form-group">
+       <label for="price">Price</label>
+       {{input value=price id="price"}}
+     </div>
+
+     <div class="form-group">
+       <label for="description">Description</label>
+       {{input value=description id="description"}}
+     </div>
+
+     <div class="form-group">
+       <label for="image">Image</label>
+       {{input value=image id="image"}}
+     </div>
+
+     <button {{action 'saveProduct1'}}>Save</button>
+   </form>
+ </div>
+
 {{else}}
   <button class="addProduct btn btn-primary"{{action 'productFormShow'}}>Add product</button>
 {{/if}}

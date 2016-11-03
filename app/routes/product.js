@@ -16,7 +16,7 @@ export default Ember.Route.extend({
     saveFeedback(params) {
       var newFeedback = this.store.createRecord('feedback', params);
       var product = params.product;
-      product.get('feedbacks').addObject(newFeeback);
+      product.get('feedbacks').addObject(newFeedback);
       newFeedback.save().then(function(){
         return product.save();
       });
