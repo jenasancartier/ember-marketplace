@@ -4,9 +4,6 @@
 __Version 1: November 2016__
 ## by [J'ena SanCartier](https://github.com/jenasancartier) and Larry Tunseth.
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
-
 ## Description
 A simple e-commerce website created with ember. With a shopping cart and categories. This was a two-day project created with a pair-programming partner at Epicodus.
 
