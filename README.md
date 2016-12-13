@@ -1,4 +1,4 @@
-# [Ember Marketplace](https://jenasancartier.github.io/ember-marketplace/)
+# Ember Marketplace
 ![project screenshot](public/img/screenshot.png)
 
 __Version 1: November 2016__
