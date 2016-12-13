@@ -1,7 +1,14 @@
-# Ember-marketplace
+# Ember Marketplace(https://jenasancartier.github.io/ember-marketplace/)
+![project screenshot](public/img/screenshot.png)
+
+__Version 1: November 2016__
+## by [J'ena SanCartier](https://github.com/jenasancartier) and Larry Tunseth.
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
+
+## Description
+A simple e-commerce website created with ember. With a shopping cart and categories. This was a two-day project created with a pair-programming partner at Epicodus.
 
 ## Prerequisites
 
@@ -50,4 +57,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
